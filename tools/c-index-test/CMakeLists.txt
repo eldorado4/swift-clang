@@ -2,6 +2,7 @@ include(CheckIncludeFiles)
 
 set(LLVM_LINK_COMPONENTS
   support
+  Obfuscation
 )
 
 add_clang_executable(c-index-test
