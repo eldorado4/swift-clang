@@ -74,7 +74,6 @@ Pass *createPrivate2Pass();
 Pass *createPrivate3Pass();
 Pass *createPrivate4Pass();
 Pass *createPrivate5Pass();
-Pass *createPrivate6Pass();
 
 void populateObfuscationPassManager(legacy::PassManager &PM) {
   PM.add(createPrivate0Pass());
@@ -83,7 +82,6 @@ void populateObfuscationPassManager(legacy::PassManager &PM) {
   PM.add(createPrivate3Pass());
   PM.add(createPrivate4Pass());
   PM.add(createPrivate5Pass());
-  PM.add(createPrivate6Pass());
 }
 
 }
